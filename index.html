@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Welcome to the Library</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="header">
+            <h1>Welcome to the Library</h1>
+        </div>
+        <div id="main">
+            <table id="library">
+                <tbody id="books">
+                    <tr id="table-header" class="book">
+                        <th class="title">Title of Book</th>
+                        <th class="author">Author</th>
+                        <th class="genre">Genre</th>
+                        <th class="pages">Length</th>
+                        <th class="read">Read</th>
+                        <th class="delete">Delete</th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="form-buttons">
+        <div id="openForm">
+            <button id="getForm" class="main-buttons">NEW BOOK</button>
+            <button id="showLibrary" class="main-buttons">Display Library</button>
+        </div>
+        <div id="addBook">
+            <form>
+                <br>
+                <label for="bookTitle">Title:</label><br>
+                <input type="text" id="bookTitle"><br><br>
+                <label for="author">Author:</label><br>
+                <input type="text" id="author"><br><br>
+                <label for="pages">Number of Pages:</label><br>
+                <input type="text" id="pages"><br><br>
+                <label for="genre">Genre:</label><br>
+                <input type="text" id="genre"><br><br>
+                <button type="button" id="newBook" class="main-buttons">Add Book to Library</button>
+            </form>
+        </div>
+        </div>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
